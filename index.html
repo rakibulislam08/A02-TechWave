@@ -14,6 +14,7 @@
 <body>
     <!-- header section  -->
     <header>
+        <!-- nav var  -->
         <nav class="mt-6 border-b border-gray-50">
             <div class="flex justify-between items-center w-full max-w-[1600px] px-5 py-5 m-auto md:px-12">
                 <h1 class="text-white text-4xl font-bold">
@@ -37,12 +38,12 @@
             </div>
         </nav>
         <!-- hero -->
-        <section class="relative w-full min-h-screen flex items-center justify-center  bg-cover bg-center bg-no-repeat text-white overflow-hidden px-4">
+        <section
+            class="relative w-full min-h-screen flex items-center justify-center  bg-cover bg-center bg-no-repeat text-white overflow-hidden px-4">
             <div class="relative z-10 flex flex-col items-center text-center gap-6 w-full max-w-4xl mx-auto">
                 <div
                     class="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] flex items-center justify-center shrink-0">
-                    <img class="absolute inset-0 w-full h-full object-contain" src="./assets/hero-circle.png"
-                        alt="" />
+                    <img class="absolute inset-0 w-full h-full object-contain" src="./assets/hero-circle.png" alt="" />
 
                     <img class="relative z-10 w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] object-contain"
                         src="./assets/microphone.png" alt="" />
@@ -295,7 +296,50 @@
         </section>
 
         <!-- host -->
+        <section class="bg-[#230E3D] text-white py-20 px-4">
+            <div class="max-w-[1000px] mx-auto">
+                <h2 class="text-3xl md:text-5xl font-bold text-center mb-12">
+                    Meet The Host
+                </h2>
 
+                <div
+                    class="bg-[#351165] rounded-3xl p-8 md:p-12 border border-white/5 flex flex-col md:flex-row items-center gap-8 md:gap-12 hover:scale-[1.01] transition-transform duration-300">
+                    <div class="shrink-0 relative">
+                        <div
+                            class="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-[#230E3D] shadow-2xl">
+                            <img src="./assets/host.png" alt="" class="w-full h-full object-cover" />
+                        </div>
+                    </div>
+
+                    <div class="text-center md:text-left space-y-4">
+                        <h3 class="text-2xl md:text-3xl font-bold">Alex Kumar</h3>
+
+                        <p class="text-gray-300 leading-relaxed text-sm md:text-base">
+                            Tech entrepreneur, productivity expert, and lifelong learner. Alex
+                            has been in the tech industry for over 10 years, working with
+                            startups and Fortune 500 companies. Through TechWave, Alex shares
+                            insights from industry leaders and practical advice for anyone
+                            looking to grow in tech.
+                        </p>
+
+                        <div class="flex items-center justify-center md:justify-start gap-4 pt-2">
+                            <a href="">
+                                <img class="w-4 h-4" src="./assets/linkedin.png" alt="LinkedIn" />
+                            </a>
+
+                            <a href="">
+                                <img class="w-4 h-4" src="./assets/x.png" alt="X" /></a>
+
+                            <a href="">
+                                <img class="w-4 h-4" src="./assets/instagram.png" alt="" /></a>
+
+                            <a href="">
+                                <img class="w-4 h-4" src="./assets/youtube.png" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
     </main>
